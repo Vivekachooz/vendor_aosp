@@ -138,11 +138,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 # OmniStyle
 PRODUCT_PACKAGES += \
-    OmniStyle
-
-# TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
+    OmniStyle \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
